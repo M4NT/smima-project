@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Pronia - Contact</title>
+    <title>Pronia - Cart</title>
     <meta name="robots" content="index, follow" />
     <meta name="description" content="Pronia plant store bootstrap 5 template is an awesome website template for any home plant shop.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -138,10 +138,10 @@
                                         <li class="megamenu-holder">
                                             <a href="shop.html">Loja</a>
                                         </li>
-                                       
-                                        <li>
+                                     
+                                        <!-- <li>
                                             <a href="about.html">Sobre nós</a>
-                                        </li>
+                                        </li> -->
                                         <li>
                                             <a href="contact.html">Contato</a>
                                         </li>
@@ -285,7 +285,7 @@
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">
-                                            
+                                           
                                         </a>
                                     </li>
                                     <li>
@@ -403,79 +403,141 @@
 
         <!-- Begin Main Content Area -->
         <main class="main-content">
-            <div class="breadcrumb-area breadcrumb-height" data-bg-image="assets/images/breadcrumb/bg/1-1-1919x388.jpg">
-                <div class="container h-100">
-                    <div class="row h-100">
-                        <div class="col-lg-12">
-                            <div class="breadcrumb-item">
-                                <h2 class="breadcrumb-heading">Contato</h2>
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="contact-form-area section-space-y-axis-100">
+            <div class="cart-area section-space-y-axis-100">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12">
-                            <div class="contact-wrap">
-                                <div class="contact-info text-white" data-bg-image="assets/images/contact/1-1-370x500.jpg">
-                                    <h2 class="contact-title">Nosso Contato</h2>
-                                    <p class="contact-desc">Preencha o formulário e nossa equipe entrará em contato com você em até 24h.
-                                    </p>
-                                    <ul class="contact-list">
-                                        <li>
-                                            <i class="pe-7s-call"></i>
-                                            <a href="tel://123-456-789">16 999339999</a>
-                                        </li>
-                                        <li>
-                                            <i class="pe-7s-mail"></i>
-                                            <a href="mailto://info@example.com">suporte@smima.com.br</a>
-                                        </li>
-                                        <li>
-                                            <i class="pe-7s-map-marker"></i>
-                                            <span>Av.Flávio Henrique Lemos, 585 </span>
-                                        </li>
-                                    </ul>
+                        <div class="col-12">
+                            <form action="javascript:void(0)">
+                                <div class="table-content table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th class="product_remove">Remover</th>
+                                                <th class="product-thumbnail">Imagens</th>
+                                                <th class="cart-product-name">Produto</th>
+                                                <th class="product-price">Valor unitário</th>
+                                                <th class="product-quantity">Quantidade</th>
+                                                <th class="product-subtotal">Valor total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="product_remove">
+                                                    <a href="#">
+                                                        <i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true"
+                                                    data-tippy-animation="shift-away" data-tippy-delay="50"
+                                                    data-tippy-arrow="true" data-tippy-theme="sharpborder"></i>
+                                                    </a>
+                                                </td>
+                                                <td class="product-thumbnail">
+                                                    <a href="#">
+                                                        <img src="assets/images/product/small-size/1-1-112x124.png" alt="Cart Thumbnail">
+                                                    </a>
+                                                </td>
+                                                <td class="product-name"><a href="#">Mudas de Lírio da Paz Brancas + Antúrio Vermelho</a></td>
+                                                <td class="product-price"><span class="amount">R$ 23,99</span></td>
+                                                <td class="quantity">
+                                                    <div class="cart-plus-minus">
+                                                        <input class="cart-plus-minus-box" value="1" type="text">
+                                                        <div class="dec qtybutton">
+                                                            <i class="fa fa-minus"></i>
+                                                        </div>
+                                                        <div class="inc qtybutton">
+                                                            <i class="fa fa-plus"></i>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td class="product-subtotal"><span class="amount">R$ 23,99</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="product_remove">
+                                                    <a href="#">
+                                                        <i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true"
+                                                    data-tippy-animation="shift-away" data-tippy-delay="50"
+                                                    data-tippy-arrow="true" data-tippy-theme="sharpborder"></i>
+                                                    </a>
+                                                </td>
+                                                <td class="product-thumbnail">
+                                                    <a href="#">
+                                                        <img src="assets/images/product/small-size/1-2-112x124.png" alt="Cart Thumbnail">
+                                                    </a>
+                                                </td>
+                                                <td class="product-name"><a href="#">Pleomele Variegata</a></td>
+                                                <td class="product-price"><span class="amount">R$ 25,99</span></td>
+                                                <td class="quantity">
+                                                    <div class="cart-plus-minus">
+                                                        <input class="cart-plus-minus-box" value="1" type="text">
+                                                        <div class="dec qtybutton">
+                                                            <i class="fa fa-minus"></i>
+                                                        </div>
+                                                        <div class="inc qtybutton">
+                                                            <i class="fa fa-plus"></i>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td class="product-subtotal"><span class="amount">R$ 25,99</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="product_remove">
+                                                    <a href="#">
+                                                        <i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true"
+                                                    data-tippy-animation="shift-away" data-tippy-delay="50"
+                                                    data-tippy-arrow="true" data-tippy-theme="sharpborder"></i>
+                                                    </a>
+                                                </td>
+                                                <td class="product-thumbnail">
+                                                    <a href="#">
+                                                        <img src="assets/images/product/small-size/1-3-112x124.png" alt="Cart Thumbnail">
+                                                    </a>
+                                                </td>
+                                                <td class="product-name"><a href="#">Mudas de Hortelã em vaso</a></td>
+                                                <td class="product-price"><span class="amount">R$ 29,99</span></td>
+                                                <td class="quantity">
+                                                    <div class="cart-plus-minus">
+                                                        <input class="cart-plus-minus-box" value="1" type="text">
+                                                        <div class="dec qtybutton">
+                                                            <i class="fa fa-minus"></i>
+                                                        </div>
+                                                        <div class="inc qtybutton">
+                                                            <i class="fa fa-plus"></i>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td class="product-subtotal"><span class="amount">R$ 29,99</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
-                                <form id="contact-form" class="contact-form" action="https://whizthemes.com/mail-php/mamunur/pronia/pronia.php">
-                                    <div class="group-input">
-                                        <div class="form-field me-lg-30 mb-35 mb-lg-0">
-                                            <input type="text" name="con_firstName" placeholder="Primeiro nome*" class="input-field">
-                                        </div>
-                                        <div class="form-field mb-35">
-                                            <input type="text" name="con_lastName" placeholder="Sobrenome*" class="input-field">
-                                        </div>
-                                    </div>
-                                    <div class="group-input mb-35">
-                                        <div class="form-field me-lg-30 mb-35 mb-lg-0">
-                                            <input type="text" name="con_phone" placeholder="Telefone / Whatasapp*" class="input-field">
-                                        </div>
-                                        <div class="form-field">
-                                            <input type="text" name="con_email" placeholder="E-mail*" class="input-field">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="coupon-all">
+                                            <div class="coupon">
+                                                <input id="coupon_code" class="input-text" name="coupon_code" value="" placeholder="CCódigo de cupom" type="text">
+                                                <input class="button mt-xxs-30" name="apply_coupon" value="Aplicar" type="submit">
+                                            </div>
+                                            <!-- <div class="coupon2">
+                                                <input class="button" name="update_cart" value="Update cart" type="submit">
+                                            </div> -->
                                         </div>
                                     </div>
-                                    <div class="form-field mb-5">
-                                        <textarea name="con_message" placeholder="Mensagem" class="textarea-field"></textarea>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-5 ml-auto">
+                                        <div class="cart-page-total">
+                                            <h2>Valor Total</h2>
+                                            <ul>
+                                                <li>Subtotal <span>R$ 79,97</span></li>
+                                                <li>Total <span>R$ 79,97</span></li>
+                                            </ul>
+                                            <a href="#">Continuar para o pagamento</a>
+                                        </div>
                                     </div>
-                                    <div class="contact-button-wrap">
-                                        <button type="submit" class="btn btn btn-custom-size xl-size btn-pronia-primary">Enviar
-                                        </button>
-                                    </div>
-                                    <p class="form-message mt-3 mb-0"></p>
-                                </form>
-                            </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- <div class="contact-with-map">
-                <div class="contact-map">
-                    <iframe class="contact-map-size" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1613802584124!5m2!1sen!2sbd" allowfullscreen="" loading="lazy">
-                    </iframe>
-                </div>
-            </div> -->
         </main>
         <!-- Main Content Area End Here -->
 
@@ -532,9 +594,9 @@
                             <div class="footer-widget-item">
                                 <h3 class="footer-widget-title">Mapa do Site</h3>
                                 <ul class="footer-widget-list-item">
-                                    <li>
+                                    <!-- <li>
                                         <a href="#">Sobre o Smima</a>
-                                    </li>
+                                    </li> -->
                                     <li>
                                         <a href="#">Ver produtos</a>
                                     </li>
@@ -605,11 +667,6 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
-                            <div class="payment-method">
-                                <a href="#">
-                                    <img src="assets/images/payment/1.png" alt="Payment Method">
-                                </a>
                             </div>
                         </div>
                     </div>

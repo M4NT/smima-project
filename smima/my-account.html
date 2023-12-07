@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Pronia - Wishlist</title>
+    <title>Pronia - My Account</title>
     <meta name="robots" content="index, follow" />
     <meta name="description" content="Pronia plant store bootstrap 5 template is an awesome website template for any home plant shop.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -138,10 +138,6 @@
                                         <li class="megamenu-holder">
                                             <a href="shop.html">Loja</a>
                                         </li>
-                                       
-                                        <li>
-                                            <a href="about.html">Sobre nós</a>
-                                        </li>
                                         <li>
                                             <a href="contact.html">Contato</a>
                                         </li>
@@ -173,7 +169,7 @@
                                             <li class="megamenu-holder">
                                                 <a href="shop.html">Loja</a>
                                             </li>
-                                           
+                                            
                                             <li>
                                                 <a href="about.html">Sobre nós</a>
                                             </li>
@@ -403,94 +399,128 @@
 
         <!-- Begin Main Content Area -->
         <main class="main-content">
-            <div class="breadcrumb-area breadcrumb-height" data-bg-image="assets/images/breadcrumb/bg/1-1-1919x388.jpg">
-                <div class="container h-100">
-                    <div class="row h-100">
-                        <div class="col-lg-12">
-                            <div class="breadcrumb-item">
-                                <h2 class="breadcrumb-heading">Lista de desejos</h2>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="wishlist-area section-space-y-axis-100">
+            <div class="account-page-area section-space-y-axis-100">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12">
-                            <form action="javascript:void(0)">
-                                <div class="table-content table-responsive">
-                                    <table class="table">
-                                        <thead>
-                                            <tr>
-                                                <th class="product_remove">Remover</th>
-                                                <th class="product-thumbnail">Imagem</th>
-                                                <th class="cart-product-name">Produto</th>
-                                                <th class="product-price">Valor Unitário</th>
-                                                <th class="product-stock-status">Estoque</th>
-                                                <th class="cart_btn">Adicionar ao Carrinho</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="product_remove">
-                                                    <a href="#">
-                                                        <i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true"
-                                                    data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                    data-tippy-arrow="true" data-tippy-theme="sharpborder"></i>
-                                                    </a>
-                                                </td>
-                                                <td class="product-thumbnail">
-                                                    <a href="#">
-                                                        <img src="assets/images/product/small-size/1-1-112x124.png" alt="Wishlist Thumbnail">
-                                                    </a>
-                                                </td>
-                                                <td class="product-name"><a href="#">American Marigold</a></td>
-                                                <td class="product-price"><span class="amount">$23.45</span></td>
-                                                <td class="product-stock-status"><span class="in-stock">Em estoque</span></td>
-                                                <td class="cart_btn"><a href="#">Adicionar ao carrinho</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="product_remove">
-                                                    <a href="#">
-                                                        <i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true"
-                                                    data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                    data-tippy-arrow="true" data-tippy-theme="sharpborder"></i>
-                                                    </a>
-                                                </td>
-                                                <td class="product-thumbnail">
-                                                    <a href="#">
-                                                        <img src="assets/images/product/small-size/1-2-112x124.png" alt="Wishlist Thumbnail">
-                                                    </a>
-                                                </td>
-                                                <td class="product-name"><a href="#">Black Eyed Susan</a></td>
-                                                <td class="product-price"><span class="amount">$25.45</span></td>
-                                                <td class="product-stock-status"><span class="in-stock text-danger">Sem estoque</span></td>
-                                                <td class="cart_btn"><a href="#">Adicionar ao carrinho</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="product_remove">
-                                                    <a href="#">
-                                                        <i class="pe-7s-close" data-tippy="Remove" data-tippy-inertia="true"
-                                                    data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                    data-tippy-arrow="true" data-tippy-theme="sharpborder"></i>
-                                                    </a>
-                                                </td>
-                                                <td class="product-thumbnail">
-                                                    <a href="#">
-                                                        <img src="assets/images/product/small-size/1-3-112x124.png" alt="Wishlist Thumbnail">
-                                                    </a>
-                                                </td>
-                                                <td class="product-name"><a href="#">Bleeding Heart</a></td>
-                                                <td class="product-price"><span class="amount">$30.45</span></td>
-                                                <td class="product-stock-status"><span class="in-stock">Sem estoque</span></td>
-                                                <td class="cart_btn"><a href="#">Adicionar ao carrinho</a></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                        <div class="col-lg-3">
+                            <ul class="nav myaccount-tab-trigger" id="account-page-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="account-dashboard-tab" data-bs-toggle="tab" href="#account-dashboard" role="tab" aria-controls="account-dashboard" aria-selected="true">Painel</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="account-orders-tab" data-bs-toggle="tab" href="#account-orders" role="tab" aria-controls="account-orders" aria-selected="false">Pedidos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="account-address-tab" data-bs-toggle="tab" href="#account-address" role="tab" aria-controls="account-address" aria-selected="false">Endereço</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="account-details-tab" data-bs-toggle="tab" href="#account-details" role="tab" aria-controls="account-details" aria-selected="false">Detalhes da conta</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="account-logout-tab" href="login-register.html" role="tab" aria-selected="false">Sair</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="tab-content myaccount-tab-content" id="account-page-tab-content">
+                                <div class="tab-pane fade show active" id="account-dashboard" role="tabpanel" aria-labelledby="account-dashboard-tab">
+                                    <div class="myaccount-dashboard">
+                                        <p>Olá <b>Yan M.</b> (Não é o Yan M.? <a href="login-register.html">Sair
+                                                </a>)</p>
+                                        <p>No painel da sua conta, você pode visualizar seus pedidos recentes, gerenciar seus endereços de entrega e cobrança e editar sua senha e detalhes da conta.</p>
+                                    </div>
                                 </div>
-                            </form>
+                                <div class="tab-pane fade" id="account-orders" role="tabpanel" aria-labelledby="account-orders-tab">
+                                    <div class="myaccount-orders">
+                                        <h4 class="small-title">MY ORDERS</h4>
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered table-hover">
+                                                <tbody>
+                                                    <tr>
+                                                        <th>Código</th>
+                                                        <th>Data</th>
+                                                        <th>Status</th>
+                                                        <th>TOTAL</th>
+                                                        <th></th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a class="account-order-id" href="#">#13421</a></td>
+                                                        <td>07 de dezembro, 2023</td>
+                                                        <td>Em análise</td>
+                                                        <td>R$ 79,97 para 3 itens</td>
+                                                        <td><a href="#" class="btn btn-dark"><span>Ver</span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a class="account-order-id" href="#">#5364</a></td>
+                                                        <td>27 de março, 2019</td>
+                                                        <td>Entregue</td>
+                                                        <td>R$ 162,00 para 2 itens</td>
+                                                        <td><a href="#" class="btn btn-dark"><span>Ver</span></a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="account-address" role="tabpanel" aria-labelledby="account-address-tab">
+                                    <div class="myaccount-address">
+                                        <p>Os endereços a seguir serão usados ​​na página de finalização de pedidos por padrão.</p>
+                                        <div class="row">
+                                            <div class="col">
+                                                <h4 class="small-title">Endereço de Cobrança</h4>
+                                                <address>
+                                                    Av.Flávio Henrique Lemos, 585 - Taquaritinga-SP
+                                                </address>
+                                            </div>
+                                            <div class="col">
+                                                <h4 class="small-title">Endereço para Entregas</h4>
+                                                <address>
+                                                    Av.Flávio Henrique Lemos, 585 - Taquaritinga-SP
+                                                </address>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="account-details" role="tabpanel" aria-labelledby="account-details-tab">
+                                    <div class="myaccount-details">
+                                        <form action="#" class="myaccount-form">
+                                            <div class="myaccount-form-inner">
+                                                <div class="single-input single-input-half">
+                                                    <label>Primeiro Nome*</label>
+                                                    <input type="text">
+                                                </div>
+                                                <div class="single-input single-input-half">
+                                                    <label>Sobrenome*</label>
+                                                    <input type="text">
+                                                </div>
+                                                <div class="single-input">
+                                                    <label>E-mail*</label>
+                                                    <input type="email">
+                                                </div>
+                                                <div class="single-input">
+                                                    <label>Senha atual (deixe em branco para não alterar)</label>
+                                                    <input type="password">
+                                                </div>
+                                                <div class="single-input">
+                                                    <label>Nova senha (deixe em branco para não alterar)</label>
+                                                    <input type="password">
+                                                </div>
+                                                <div class="single-input">
+                                                    <label>Confirmar nova senha</label>
+                                                    <input type="password">
+                                                </div>
+                                                <div class="single-input">
+                                                    <button class="btn btn-custom-size lg-size btn-pronia-primary" type="submit">
+                                                        <span>Salvar Alterações</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
